@@ -66,7 +66,8 @@ class OperationsTable extends React.Component {
 			const { blockNumber, trIndex, opIndex } = operations.get(index);
 			const transactionUrl = URLHelper.createTransactionUrl(blockNumber, trIndex + 1);
 			const operationUrl = URLHelper.createTransactionOperationUrl(transactionUrl, opIndex + 1);
-			return this.props.history.push(operationUrl);
+			this.props.history.push(operationUrl);
+			return;
 		}
 
 		if (v !== -1) {
