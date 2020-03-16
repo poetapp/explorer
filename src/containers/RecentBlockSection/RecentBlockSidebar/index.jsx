@@ -95,7 +95,7 @@ class RecentBlockSidebar extends React.Component {
 							(matches) => !matches &&
 							<div className={classnames('info-container', { fixed: offsetTop > MAIN_HEADER_HEIGHT })}>
 								<div className="version">v{appVersion}</div>
-								<div className="copyright">©Echo Technological Solutions LLC, {FormatHelper.getYear(new Date())}</div>
+								<div className="copyright">©Po.et, {FormatHelper.getYear(new Date())}</div>
 							</div>
 						}
 					</Media>

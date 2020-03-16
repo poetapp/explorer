@@ -23,7 +23,7 @@ class NavTabs extends React.Component {
 					className={classnames({ active: pathName === NODE_MAP })}
 					onClick={() => history.push(NODE_MAP)}
 				>
-					Nodes map
+					Node map
 				</button>
 			</div>
 		);
